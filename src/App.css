@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: gray;
+}
+
+.register-form {
+  margin: 16px;
+  padding: 16px;
+  width: 500px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.login-header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.login-title {
+  margin: 0 8px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.login-title.active {
+  margin: 0 8px;
+  padding-bottom: 4px;
+  color: #0d6efd;
+  border-bottom: 2px solid #0d6efd;
+}
